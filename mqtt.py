@@ -29,3 +29,7 @@ client.publish('common', json.dumps({"success" : "ok"}), 1)
 client.loop_stop()
 #연결 종료
 client.disconnect()
+
+# on_publish는 잘 사용하지 않는다
+# 포트는 1883이 기본이다
+
